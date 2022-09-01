@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Gradiente</title>
+    <style>
+        *{ /* Tag configuração global nas CSS. */
+        }
+        body {
+            
+            background-image: linear-gradient(45deg,#5655F2 50%, #5882FC, #5CA3E6, #58D8FC, #55F2EB);
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+   <h1>Gradiente -- Dêgrade</h1> 
+   <p>
+    Tag usadas: <br>
+        <code>
+            background-image: linear-gradient(to right, blue, red);
+        </code> <br>
+        to right, to left, to top, to bottom. posso usar também em graus: 45deg ou -45deg. <br>
+        <code>
+            background-image: linear-gradient(-45deg, blue, red);
+        </code><br>
+        <code>
+            background-image: linear-gradient(45deg,#5655F2, #5882FC, #5CA3E6, #58D8FC, #55F2EB);
+        </code><br>
+        Posso também definir qual cor quero que mais apareça do degrade. <br>
+        <code>
+            background-image: linear-gradient(45deg,#5655F2 50%, #5882FC 40%, #5CA3E6 10%, #58D8FC 1%, #55F2EB 6%);
+        </code>
+
+   </p>
+</body>
+</html>

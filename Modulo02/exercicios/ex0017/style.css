@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(red, blue);
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    text-align: justify;
+}
+
+h1{
+    font-weight: bold;
+    /* Pesa da fonte; Usado para negrito */
+}
+
+main{
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+    width: 600px;
+    padding: 15px;
+    margin: auto;
+}
+
+h2{
+    font: italic bolder 3em "Arial","sans-serif";
+    /* Shorthand */
+}

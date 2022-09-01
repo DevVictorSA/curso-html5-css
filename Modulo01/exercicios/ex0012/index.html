@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgens/Martz90-Circle-Games.ico" type="image/x-icon"> <!--link:favicon-->
+    <title>Captulo 11 - Video</title>
+</head>
+<body>
+    <h1>Reproduzindo Video com HTML5</h1>
+    <p>Esse video esta sendo hospedado no próprio servidor.</p> 
+    
+    <video controls poster="imgens/tumble01.jpg" width="500"> <!--poster para por capa no video.-->
+        <source src="midia/pexels-ekrulila-9117908.mp4" type="video/mp4">
+        <source src="midia/Pexels-Ekrulila-9117908.mkv" type="video/mvk">
+        <source src="midia/Pexels-Ekrulila-9117908.webm" type="video/webm">
+
+        <p>Seu navegador não suporta o video.</p>
+    </video>
+    <p>Ficar atento pois videos usando a tag video consomen muitos dados.</p>
+    <video src="midia/pexels-kei-scampa-6114303.mp4" controls width="500"></video>
+
+    <h1>Incorporando video do Youtube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/uMZac4YLfRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Incorporando videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/29844795?h=f0a1764666&autoplay=1&loop=1&title=0&portrait=0" width="500" height="281" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+    <p>A principal deferençã entre as duas formas de inserção de video é o consumo de banda.</p>
+</body>
+</html>

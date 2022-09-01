@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body{
+    background-image: linear-gradient(to bottom,#00724A, #8D2539);
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+    border: 10px solid aliceblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 2px black;
+    background-color: aliceblue;
+    padding: 5px;
+    margin: 5px;
+}
+
+header > h1{
+    text-align: center;
+    color: #8D2539;
+    padding: 0px;
+    margin: -5px;
+}
+
+nav{
+    background-color: #00724A;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 2px black;
+    margin: 10px;
+    padding: 10px;
+}
+
+nav > a{
+    text-decoration: none;
+    color: #ffff;
+    margin:11%
+}
+
+nav > a:hover{
+    text-decoration: dashed;
+    color: #8D2539;
+}
+
+main{
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 2px black;
+    margin: 5px;
+    padding: 20px;
+}
+
+#inicio{
+    color: #8D2539;
+}
+
+#inicio > h2{
+    text-align: center;
+}
+
+#inicio > h2:hover{
+    text-shadow: #00724A;
+    text-decoration: double;
+    color: #00724A;
+}
+
+#artigo{
+    background-color: #00724A;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 2px black;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+#artigo2{
+    background-color: #00724A;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 2px black;
+    margin-left: 350px;
+    margin-top: -330px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+#artigo3{
+    background-color: #00724A;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px 2px black;
+    margin-left: 690px;
+    margin-top: -320px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+footer{
+    background-color: black;
+    box-shadow: 10px 10px 10px 2px black;
+    color: #8D2539;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 5px;
+}

@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+body{
+    background-color: lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    width:100px;
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    background-color: brown;
+    color: white;
+    height: 70px;
+    width: 70px;
+    border: 1px solid black;
+    text-align:justify;
+}

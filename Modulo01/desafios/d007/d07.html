@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">q
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imgens/favicon.png" type="image/x-icon">
+    <title>Desafio 07</title>
+</head>
+<body>
+    <h1>Imagens Flexivel</h1>
+    <p>Você esta vendo a imagens completa? - Tente aumentar o tamanho do navegador para ver a alteração na imagem. &#X12154</p>
+
+    <picture> <!--Na tag picture tenho sempre que fornecer a maior imagem, e com os sources eu diminuo a imagem-->
+        <source media="(max-width:750px)" srcset="imgens/paisagem-p.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="imgens/paisagem-m.png" type="image/png">
+        <img src="imgens/paisagem-g.png" alt="Imagens Flexivel">
+    </picture>
+    
+</body>
+</html>
