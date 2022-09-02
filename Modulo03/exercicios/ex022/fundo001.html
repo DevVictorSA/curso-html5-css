@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imgem de Fundo</title>
+    <style>
+        body{
+            background-image: url("imagens/pattern004.png");
+        }
+
+        .quadrado{
+            border: 2px solid black;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px black;
+            width: 300px;
+            height: 300px;
+            display: inline-block;
+
+        }
+
+        div#q1{
+            background-color: aquamarine;
+        }
+
+        div#q2{
+            background-image: linear-gradient(to right, blue,red);
+        }
+
+        div#q3{
+            background-image: url("imagens/pattern003.png");            
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="quadrado" id="q1"></div>
+        <div class="quadrado" id="q2"></div>
+        <div class="quadrado" id="q3"></div>
+    </main>
+</body>
+</html>
