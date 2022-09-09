@@ -31,7 +31,7 @@ header{
 
 header > h1{
     font-family: var(--fontdest);
-    font-size:100px;
+    font-size:10vw;
     font-variant: small-caps;
     color: white;
     padding-top: 50px;
@@ -62,6 +62,7 @@ section{
     font-family: var(--fonttext);
     font-weight: 100;
     line-height: 2em;
+    font-size: 5vw;
 }
 
 section.normal{
@@ -76,10 +77,10 @@ section.imagem{
 
 /*Teste efeito glassmorfismo*/
 section.imagem > p{
-    background-color: transparent;
+    display: inline-block;
+    background-color: black;
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    width: 300px;
 }
 
 footer{
