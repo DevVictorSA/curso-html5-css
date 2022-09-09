@@ -19,33 +19,73 @@
     --fonttext:'Sriracha', cursive;
 }
 
+html body{
+    min-height: 100vh;
+}
+
 header{
     background-color: black;
+    text-align: center;
     margin: 0 auto;
-    height: 300px;
 }
 
-header h1{
+header > h1{
     font-family: var(--fontdest);
-    font-size:70px;
+    font-size:100px;
+    font-variant: small-caps;
     color: white;
-    text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
-header p{
-    text-align: center;
+header > p{
+
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
+    padding-bottom: 50px;
 }
 
-header a{
+a{
     text-decoration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
 }
 
-header a:hover{
+a:hover{
     text-decoration:underline;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    font-family: var(--fonttext);
+    font-weight: 100;
+    line-height: 2em;
+}
+
+section.normal{
+
+}
+
+
+section.imagem{
+    background-color: rgba(0, 0, 0, 0.416);
+    color: white;
+}
+
+/*Teste efeito glassmorfismo*/
+section.imagem > p{
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    width: 300px;
+}
+
+footer{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    padding: 10px;
+    color: white;
 }
