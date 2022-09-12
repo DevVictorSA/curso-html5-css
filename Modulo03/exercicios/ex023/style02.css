@@ -8,8 +8,22 @@ table{
     width: 500px;
     border-collapse: collapse;
 }
+
+caption{
+    font-size: 1.3em;
+    font-weight: bold;
+    background-color: green;
+    padding: 10px;
+}
+
+thead{
+    background-color: gray;
+    color: white;
+}
+
 th, td {
-    border: 2px solid black;   
+    border: 2px solid black;
+    padding: 10px;   
 }
 
 td{
@@ -18,4 +32,9 @@ td{
 
 td.num{
     text-align: right;
+}
+
+tfoot{
+    background-color: black;
+    color: white;
 }
