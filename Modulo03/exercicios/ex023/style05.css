@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table{
+    width: 500px;
+}
+
+th,td{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+col.destaque{
+    background-color: aqua;
+}
+ col.vermelho{
+    background-color: red;
+ }
