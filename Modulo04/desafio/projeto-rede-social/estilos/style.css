@@ -3,6 +3,7 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 
 }
 
@@ -50,7 +51,6 @@ section#redes img{
     margin: 5px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px black;
-    box-sizing: border-box;
 }
 
 section#redes img:hover{
