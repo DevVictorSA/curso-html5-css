@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+    <style>
+        div{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario Basico 2</h1>
+    <!--Deixar o autocomplete ON para deixar as caixas especificadas-->
+    <form action="cadastro.php" method="post">
+        <div>
+            <!--
+                vamos padronizar os campos:
+                required:
+                placeholder
+                min max length
+                size
+                autocomplete
+            -->
+            <label for="iusu">Usuario
+                <input type="text" name="usu" id="iusu" required placeholder="Victor1010" minlength="8" maxlength="14" size="10" autocomplete="username">
+            </label>
+        </div>
+        <div>
+            <label for="isen">Senha
+                <input type="password" name="senha" id="isen" required placeholder="Senha secreta" minlength="6" maxlength="12" size="10" autocomplete="current-password">
+            </label>
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="submit" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
