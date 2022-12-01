@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+    <style>
+        div{
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario Basico 3</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <div>
+            <label for="inome">Nome</label>
+            <input type="text" name="nome" id="inome" required placeholder="Nome completo" maxlength="30" autocomplete="name">
+        </div>
+        <div>
+            <label for="inota">Nota</label>
+            <input type="number" name="nota" id="inota" required value="5" step="0.5" min="0" max="10">
+        </div>
+        <div>
+            <label for="imes">Mês da Prova</label>
+            <input type="month" name="mes" id="imes" required>
+        </div>
+        <div>
+            <label for="idata">Data da prova</label>
+            <input type="date" name="data" id="idata" required > 
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
