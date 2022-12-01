@@ -16,15 +16,27 @@
         }
         p{
             text-align: justify;
+            margin: 5px;
         }
     </style>
 </head>
 <body>
     <h1>Formulario basico</h1>
-    <form action="">
-        <p>Nome <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome <input type="text" name="sobrenome" id="sobrenome"></p>
-        <p>idade <input type="number" name="idade" id="idade"></p>
+    <!--aciton para enviar dados do seu formulário.-->
+    <form action="cadastro.js" autocomplete="off">
+        <p>
+            <!--
+                label para referênciar seu inputa a uma etiqueta.
+            -->
+            <label for="inome">Nome</label> 
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p>
+            <label for="isobrenome">Sobrenome</label> <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <label for="iidade">idade</label> <input type="number" name="idade" id="iidade">
+        </p>
         <input type="submit" value="Enviar">   
     </form>
 </body>
