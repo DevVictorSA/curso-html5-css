@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style1.css">
+    <title>Capturando Dados</title>
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Cadastro de Dev</h1>
+        <p>Complete suas informções</p>
+    </header>
+    <main>
+        <form action="cadastro.php" method="post" autocomplete="on">
+            <fieldset>
+                
+                <div class="dadopessoais">
+                    <label for="inome">None</label>
+                    <input type="text" name="nome" id="inome" minlength="5" maxlength="12"><br>
+                    <label for="isobrenome">Sobrenome</label>
+                    <input type="text" name="sobrenome" id="isobrenome" minlength="10" maxlength="30"><br>
+                    <label for="iemail">Email</label>
+                    <input type="email" name="email" id="iemail" autocomplete="email" >
+                </div>
+
+            </fieldset>
+
+            <label>De qual lado da aplição você desenvolve?</label><br><br>
+            <label for="ifront"><input type="radio" name="api" id="ifront">Front-end</label>
+            <label for="iback"><input type="radio" name="api" id="iback">Back-end</label>
+            <label for="ifull"><input type="radio" name="api" id="ifull">Full-stak</label>
+
+            <div class="ref">
+                <label for="inivel">Senioridade</label><br><br>
+                <select name="senioridade" id="inivel">
+                    <option value="">Junior</option>
+                    <option value="">Plenior</option>
+                    <option value="">Senior</option>
+                </select>
+            </div>
+
+            <div class="ref">
+                <label for="iran">Defina sue nivel de experiência:</label><br><br>
+                <input type="range" name="range" id="iran" min="0" max="10" oninput="imostra.innerHTML = Number(iran.value)">
+                <strong>
+                    <output name="mostra" id="imostra">5</output>
+                </strong>
+            </div>
+
+            <fieldset>
+                <div class="ref">
+                    <label for="itec">Selecione as tecnologias que utiliza</label><br><br>
+                    <input type="checkbox" name="tec01" id="html" value="html">
+                    <label for="html">HTML</label>
+                    <input type="checkbox" name="tec02" id="css" value="css">
+                    <label for="css">CSS</label>
+                    <input type="checkbox" name="tec03" id="js" value="JavaScript">
+                    <label for="js">JavaScript</label>
+                    <input type="checkbox" name="tec04" id="php" value="php">
+                    <label for="php">PHP</label>
+                    <input type="checkbox" name="tec05" id="c" value="C">
+                    <label for="c">C#</label>
+                    <input type="checkbox" name="tec06" id="py" value="Python">
+                    <label for="py">Python</label>
+                    <input type="checkbox" name="tec07" id="java" value="Java">
+                    <label for="java">Java</label>
+                </div>
+            </fieldset>
+
+                <div class="ref">
+                    <label for="msg">Conte um pouco da sua experiência:</label><br>
+                    <textarea name="msg" id="msg" cols="50" rows="10" minlength="5" placeholder="Descreva sua experiência."></textarea>
+                </div>
+
+                <div class="botao">
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+                </div>
+        </form>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
