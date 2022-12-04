@@ -6,22 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <title>Formulario</title>
+    <title>Formulário OutPut</title>
 </head>
 <body>
     <h1>Formulário Output</h1>
     <form action="cadastro.php" method="post" autocomplete="on">
         <div>
-            <label for="in1">Numero 1:</label>
-            <input type="number" name="numero" id="in1" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
-        </div>
-        <div>
-            <label for="in2">Numero 2:</label>
-            <input type="number" name="numero" id="in2" oninput="isoma.innerHTML = Number(in1.value) + Number(in2.value)">
-        </div>
-        <div>
-            <label for="isoma">Soma é:</label>
-            <output name="soma" id="isoma">0</output>
+            <label for="iran">Defina um número:</label>
+            <input type="range" name="range" id="iran" oninput="imostra.innerHTML = Number(iran.value)">
+            <strong>
+                <output name="mostra" id="imostra">5</output>
+            </strong>
         </div>
         <div>
             <input type="submit" value="Enviar">
