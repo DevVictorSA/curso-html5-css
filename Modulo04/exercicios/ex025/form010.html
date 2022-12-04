@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="calcularidade.js"></script>
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Fomulário Idade pelo Ano</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <fieldset>
+            <legend>Calcular idade</legend>
+            <div>
+                <label for="iano">Ano</label>
+                <input type="number" name="ano" id="iano" min="1900" max="2022" oninput="calcidade()">
+            </div>
+            <div>
+                <label for="iresultado">Sua idade é:</label>
+                <output name="resultado" id="iresultado">0</output>
+            </div>
+        </fieldset>
+    </form>
+</body>
+</html>
