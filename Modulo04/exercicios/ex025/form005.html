@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulario Basico</h1>
+    <form action="cadastro.php" autocomplete="on" method="post">
+        <fieldset>
+            <legend>Sexo</legend>
+            <div>
+                <label for="imas"><input type="radio" name="sexo" id="imas">Masculino</label><br>
+                <label for="ifem"><input type="radio" name="sexo" id="ifem">Feminino</label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Esporte</legend>
+            <div>
+                <input type="checkbox" name="futebol" id="ifut">
+                <label for="ifut">Futebol</label><br>
+                <input type="checkbox" name="luta" id="ilut">
+                <label for="ilut">Lutas</label><br>
+                <input type="checkbox" name="Corrida" id="icorr">
+                <label for="icorr">Corrida</label><br>
+                <input type="checkbox" name="Salto" id="isalt">
+                <label for="isalt">Salto</label>
+            </div>
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
