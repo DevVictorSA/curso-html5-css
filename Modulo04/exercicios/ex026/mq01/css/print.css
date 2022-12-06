@@ -2,3 +2,28 @@
 
 
 /*Estilo para tela*/
+
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    font-weight: 200;
+    line-height: 1em;
+}
+
+menu{
+    display: none;
+}
+
+article::after{
+    content: "Essa msg foi feita via css. after content";
+}
+
+main{
+    width: 100vw;
+}
