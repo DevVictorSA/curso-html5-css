@@ -24,17 +24,26 @@ header{
 
 .menu{
     display: flex;
+    align-items: center;
     justify-content: center;
+
 }
 
 menu ul{
     display: flex;
-    justify-content: space-around;
     list-style-type: none;
 }
 
+.space{
+    display: flex;
+    justify-content: space-between;
+}
+
 li{
+    margin: 5px;
     padding: 5px;
+    border: 1px solid black;
+    
 }
 
 main{
