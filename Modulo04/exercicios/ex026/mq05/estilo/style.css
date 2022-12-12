@@ -14,13 +14,27 @@ header{
     background-color: rgb(123, 123, 123);
 }
 
+span#menu{
+    display: block;
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+    padding: 5px;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+span#menu:hover{
+    background-color: rgba(205, 203, 203, 0.816);
+    color: black;
+}
+
 header h1{
     text-align: center;
     padding: 5px;
 }
 
 menu{
-    display: block;
+    display: none;
 }
 
 menu ul{
