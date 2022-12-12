@@ -45,9 +45,10 @@ menu a{
     display: block;
     text-decoration: none;
     text-align: center;
+    margin: 2px;
     padding: 5px;
     color: white;
-    border-top: 2px solid rgba(205, 203, 203, 0.816);;
+    border: 2px solid rgba(205, 203, 203, 0.816);;
 }
 
 menu a:hover{
