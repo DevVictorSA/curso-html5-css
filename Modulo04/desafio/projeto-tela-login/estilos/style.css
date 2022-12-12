@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+/* Paleta de Cores 
+------------------
+    #58FACC
+    #0BD6E3
+    #009AFA
+    #0547E6
+    #5752FF
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
