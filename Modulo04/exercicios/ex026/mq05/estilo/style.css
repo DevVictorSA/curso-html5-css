@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-color: rgba(205, 203, 203, 0.816);
+}
+header{
+    background-color: rgb(126, 126, 126);
+}
+
+main{
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+
+footer{
+    text-align: center;
+}
