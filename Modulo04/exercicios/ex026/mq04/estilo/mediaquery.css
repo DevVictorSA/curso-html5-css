@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+/* Todas as demais medias query.*/
+
+/* Common Responsive Breakpoints
+--------------------------------
+Mobile: 360 x 640.
+Mobile: 375 x 667.
+Mobile: 360 x 720.
+iPhone X: 375 x 812.
+Pixel 2: 411 x 731.
+Tablet: 768 x 1024.
+Laptop: 1366 x 768.
+High-res laptop or desktop: 1920 x 1080. */
+
+@media print{
+
+}
+
+/* Para tablet */
+@media screen and (min-width:600px) and (max-width:1024px) {
+    body{
+        background-image: url(../img/back-tablet.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+
+    img#phone{display: none;}
+    img#tablet{display: block;}
+}
+
+/* Para PC */
+@media screen and (min-width:1024px) and (max-width:1366px)  {
+    body{
+        background: url(../img/back-pc.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+    img#phone{display: none;}
+    img#pc{display: block;}
+}
+
+/* Para TV e telas grandes */
+@media screen and (min-width:1366px) {
+    body{
+        background: url(../img/back-tv.jpg);
+        background-size: cover;
+        background-position: center center;
+    }
+img#phone{display: none;}
+img#tv{display: block;}
+}
