@@ -37,33 +37,23 @@ section#logim{
     border-radius: 20px;
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.400);
     overflow: hidden; /* Tudo que estiver fora da borda vai ficar escondido */
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div#imagem{
+    display: block;
     background: #5752FF url(../imagens/pexels-carlos-rodríguez-sánchez-11736895.jpg) no-repeat;
     background-size: cover;
     background-position: left center;
     height:300px;
+
+
 }
 
 div#formulario{
+    display: block;
     padding: 10px;
 }
 
-div#title{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-}
-
-div#form form{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-}
-
-div#form form button{
-    margin-top: 10px;
-}
