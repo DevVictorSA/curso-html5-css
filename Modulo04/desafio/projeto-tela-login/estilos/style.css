@@ -67,28 +67,47 @@ div#formulario{
 }
 
 .caixa{
+    background-color: #5752FF;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-bottom: 10px;
+    /* border: 2px solid #5752FF; */
+    border-radius: 8px;
+}
+
+div.caixa span{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    height: 100%;
+    text-align: center;
 }
 
 input[type=email]{
-    width: 85%;
+    background-color: #b0aefa;
+    width:calc(100% - 42px);
     height: 30px;
-    margin-top: 10px;
-    margin-left: 5px;
+    border: none;
+    border-radius: 8px;
 }
 
 input[type=password]{
-    width: 85%;
+    background-color: #b0aefa;
+    width:calc(100% - 42px);
     height: 30px;
-    margin-top: 10px;
-    margin-left: 5px;
+    border: none;
+    border-radius: 8px;
+}
+
+input:focus-within{
+    background-color: white;
+    border: none;
 }
 
 label{
-    display: block;
+    display: none;
     text-align: center;
     margin-bottom: 5px;
     font-size: 1em;
