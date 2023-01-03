@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="shortcut icon" href="imagens/icons8-male-user-windows-11-color-32.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaquery.css">
@@ -26,12 +27,19 @@
                 </div>
                 <div id="form">
                     <form action="" method="post">
-                        <label for="iusu">Usuario</label>
-                        <input type="text" name="usuario" id="iusu">
+                        <div class="caixa">
+                            <span class="material-symbols-outlined">person</span>
+                            <input type="email" name="usuario" id="iusu" placeholder="email@email" autocomplete="email" required maxlength="30">
+                        </div>
+                        <label for="iusu">Email</label>
+                        <div class="caixa">
+                            <span class="material-symbols-outlined"> key </span>
+                            <input type="password" name="senha" id="isen" placeholder="senha" autocomplete="current-password" required minlength="10">
+                        </div>
                         <label for="isen">Senha</label>
-                        <input type="password" name="senha" id="isen">
+                        <input type="submit" value="Entrar">
                         <button>
-                            <a href="#">Entrar</a>
+                            <a href="#">Criar Conta</a>
                         </button>
                         <button>
                             <a href="#">Esqueci a senha</a>
